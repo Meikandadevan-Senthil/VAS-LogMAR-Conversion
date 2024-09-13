@@ -59,7 +59,7 @@ This Flask web application allows users to upload Excel files containing visual 
 1. **Run the Flask application:**
 
    ```bash
-   python app.py
+   python convert.py
    ```
 
 2. **Open your web browser and navigate to:**
@@ -83,25 +83,6 @@ This Flask web application allows users to upload Excel files containing visual 
 
 - **Decimal to LogMAR**: Converts decimal visual acuity values to LogMAR.
 - **LogMAR to VAS**: Converts LogMAR visual acuity values to Visual Analog Scale (VAS).
-
-## Example
-
-**Input Excel File:**
-
-| Patient ID | Decimal VA |
-|------------|------------|
-| 001        | 0.8        |
-| 002        | 0.6        |
-
-**After Conversion:**
-
-For Decimal to LogMAR:
-- New columns `Decimal_VA_logmar` and `Decimal_VA_vas` will be added.
-
-| Patient ID | Decimal VA | Decimal_VA_logmar | Decimal_VA_vas |
-|------------|------------|-------------------|----------------|
-| 001        | 0.8        | -0.10             | 95.0           |
-| 002        | 0.6        | -0.22             | 89.0           |
 
 ## Troubleshooting
 
