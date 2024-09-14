@@ -26,7 +26,7 @@ This Flask web application allows users to upload Excel files containing visual 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/visual-acuity-conversion.git
+   git clone https://github.com/Meikandadevan-Senthil/VAS-LogMAR-Conversion.git
    ```
 
 2. **Navigate to the project directory:**
